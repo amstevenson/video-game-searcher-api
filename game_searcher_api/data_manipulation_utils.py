@@ -1,4 +1,4 @@
-from service.igdb import IGDB
+from game_searcher_api.service.igdb import IGDB
 import time
 import json
 import datetime

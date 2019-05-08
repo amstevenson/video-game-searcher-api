@@ -1,6 +1,6 @@
 from flask import Blueprint, Response, request
 from game_searcher_api.service.igdb import IGDB
-from data_manipulation_utils import convert_igdb_json_to_usable_format
+from game_searcher_api.data_manipulation_utils import convert_igdb_json_to_usable_format
 import json
 import logging
 
